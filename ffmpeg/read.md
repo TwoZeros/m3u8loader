@@ -1,3 +1,3 @@
 Помести в этот католог
-ffmpeg.exe
-ffprobe.exe
+- ffmpeg.exe
+- ffprobe.exe
