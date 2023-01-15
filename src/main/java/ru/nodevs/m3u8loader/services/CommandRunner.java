@@ -1,4 +1,6 @@
-package ru.nodevs.m3u8loader.utils;
+package ru.nodevs.m3u8loader.services;
+
+import org.springframework.stereotype.Service;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -6,6 +8,7 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.Scanner;
 
+@Service
 public class CommandRunner {
 
     public void executeCommand(String command) {
