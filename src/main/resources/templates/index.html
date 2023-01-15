@@ -2,13 +2,13 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <title>M3U8 loader</title>
 </head>
 <body>
-<h1>Загрузкчик</h1>
+<h1>Загрузчик</h1>
 <form action="#" th:action="@{/load}" th:object="${link}" method="post">
     <label for="url">URL</label>
-    <input type="text" th:field="*{url}" id="url" placeholder="Name">
+    <input type="text" th:field="*{url}" id="url" placeholder="URL">
     <input type="submit" value="Скачать">
 </form>
 </body>
