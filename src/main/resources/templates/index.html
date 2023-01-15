@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<h1>Загрузкчик</h1>
+<form action="#" th:action="@{/load}" th:object="${link}" method="post">
+    <label for="url">URL</label>
+    <input type="text" th:field="*{url}" id="url" placeholder="Name">
+    <input type="submit" value="Скачать">
+</form>
+</body>
+</html>
